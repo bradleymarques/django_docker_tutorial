@@ -115,7 +115,7 @@ Open your `.gitignore` file and add the following at the bottom:
 data/
 ```
 
-## Fire it up!
+## It's Alive
 
 We are now at the stage where we can actually run the server (even though there
 is nothing much to see). Do this by running:
@@ -129,6 +129,8 @@ docker-compose up
 Now direct your browser to `http://localhost:8000/` and you should see:
 
 ![It's Alive!](./images/its_alive.png)
+
+You have now successfully run a "Hello World" Django application on Docker!
 
 ## References
 
