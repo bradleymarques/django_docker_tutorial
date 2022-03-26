@@ -115,6 +115,21 @@ Open your `.gitignore` file and add the following at the bottom:
 data/
 ```
 
+## Fire it up!
+
+We are now at the stage where we can actually run the server (even though there
+is nothing much to see). Do this by running:
+
+```sh
+docker-compose up
+```
+
+(Note: in Linux if you see a bunch of Permission errors, re-run the `chown` command from before)
+
+Now direct your browser to `http://localhost:8000/` and you should see:
+
+![It's Alive!](./images/its_alive.png)
+
 ## References
 
 1. [Quickstart: Compose and Django](https://docs.docker.com/samples/django/)
