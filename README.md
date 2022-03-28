@@ -211,7 +211,13 @@ nothing is broken.
 
 ## Part 2: Creating a Django Model, View and Template
 
-TODO
+Now let us create our first Django app (not project). Run the following command:
+
+```sh
+docker-compose run web python manage.py startapp the_django_app
+```
+
+This will create a new directory `the_django_app` in the root of the project.
 
 ## References
 
